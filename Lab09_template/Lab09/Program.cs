@@ -78,8 +78,8 @@ namespace Lab09
                     {
                         try
                         {
-                            //XmlSerializer xs = new XmlSerializer(typeof(Student));
-                            //xs.Serialize(fs, deu);
+                            XmlSerializer xs = new XmlSerializer(typeof(Student));
+                            xs.Serialize(fs, deu);
                         }
                         catch (SerializationException e)
                         {
